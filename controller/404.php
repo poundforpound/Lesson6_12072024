@@ -3,14 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><?php echo $title; ?></title>
+	<title>Whoops!</title>
 </head>
 <body>
-	<?php
-	echo $content;
-	?>
-	<footer>
-		&copy; <?php echo date("Y");?>
-	</footer>
+	404 - page not found
 </body>
 </html>
