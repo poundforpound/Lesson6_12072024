@@ -11,7 +11,7 @@ $statement = $pdo->query($sql);
 $records = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 foreach($records as $record){
-	$content = "<p>" . $record['id'] . "</p>";
+	$content .= "<p>" . $record['id'] . "</p>";
 }
 
 // while ($row = $statement->fetch(PDO::FETCH_ASSOC)){
