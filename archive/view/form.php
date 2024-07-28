@@ -1,7 +1,7 @@
 <form action="<?php echo $form_action;?>" method="POST">
 <input type="text" name="name" placeholder="Enter your name">
-<textarea name="description"  cols="30" rows="10" placeholder="Write your review" resize:none></textarea>
-
+<input type="text" name="title" placeholder="Enter your title">
+<input type="text" name="email" placeholder="Enter your email">
 <button type="submit">Submit</button>
 </form>
 

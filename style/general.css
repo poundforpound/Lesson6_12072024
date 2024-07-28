@@ -1,0 +1,49 @@
+body{
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	color: brown;
+	background-image: url(https://www.phcppros.com/ext/resources/2021/08/02/PE0821_very-tall-buildings.jpg?t=1628481696&width=1080);
+height: 100vh;
+
+}
+ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px auto;
+	width: 50%;
+	align-items: center;	
+	/* margin: 20px; */
+	margin-bottom: 100px;
+	list-style-type: none;
+	font-size: 24px;
+}
+
+li a{
+	text-decoration: none;
+	color: rgb(255, 0, 119);
+}
+li:hover{
+	cursor: pointer;
+}
+
+
+section{
+display: flex;
+flex-direction: column;
+	font-size: 36px;
+	flex: 1 1 auto;
+	margin: 0px auto;
+	align-items: center;
+	justify-content: center;
+	background-color: wheat;
+	opacity: 50%;
+	width: 100%;
+}
+footer{
+	background-color: aquamarine;
+	opacity: 50%;
+text-align: center;
+ color: green;
+}
+

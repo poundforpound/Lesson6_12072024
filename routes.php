@@ -1,18 +1,21 @@
 <?php
 
-$url = isset($_GET["url"]) ? $_GET["url"] : "/";
+$url = isset($_GET['url'])? $_GET['url'] : '/';
 
 switch($url){
-	case "/":
-		require "controller/home.php";
-		break;
-	case "about":
-		require "controller/about.php";
-		break;
-	case 'book':
-		require "controller/book.php";
-		break;
+	case "home":
+	require "pages/home.php";
+	break;
+	case "services":
+	require "pages/services.php";
+	break;
+	case "reviews":
+	require "pages/reviews.php";
+	break;
+	case "contacts":
+	require "pages/contacts.php";
+	break;
 	default:
-		require "controller/404.php";
-		break;
+	require "pages/404.php";
+	break;
 }
